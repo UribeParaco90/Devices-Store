@@ -1,6 +1,13 @@
 body{
     background-color: rgb(223, 222, 222);
     padding-top: 100px;
+    font-family: "Montenegrin Gothic One", serif;
+}
+
+.montenegrin-gothic-one-regular {
+  font-family: "Montenegrin Gothic One", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 nav{
@@ -23,11 +30,11 @@ nav a{
 }
 
 .logo{
-    border-radius: 50%;
-    width: 70px;
-    height: 70px;
-    margin-top: -7px;
-    margin-left: 5px;
+   border-radius: 50%;
+   margin-top: -18px;
+   width: 160px;
+   height: 110px;
+   margin-left: -10px;
 }
 
 form{
@@ -35,18 +42,13 @@ form{
     padding-left: 20px;
 }
 
-.logo{
-   margin-top: -18px;
-   width: 160px;
-   height: 110px;
-   margin-left: -10px;
-}
-
 .nav-links{
     display: flex;
+    list-style: none;
     font-size: 30px;
     margin: 10px;
     margin-left: -7px;
+    padding: 0;
 }
 
 .inicio{
@@ -63,6 +65,8 @@ img{
 table{
     width: 80%;
     text-align: center;
+    border-radius: 10px;
+    border-color: black;
 }
 footer{
     background-color: rgb(148, 224, 189);
@@ -70,10 +74,11 @@ footer{
     width: 100%;
     font-size: 20px;
     display: flex;
+    align-items: center;
     margin-top: 40px;
 }
 
-text{
+footer span{
     padding-top: 25px;
     padding-left: 70px;
 }
@@ -88,10 +93,6 @@ th{
 }
 td{
     background-color: rgb(225, 247, 242);
-}
-table{
-    border-radius: 10px;
-    border-color: black;
 }
 .carousel{
     width: 90%;
@@ -135,6 +136,7 @@ table{
 .carousel-caption h3{
     margin: 0 0 4px;
     font-size: 1.3rem;
+    padding-left: 0;
 }
 .carousel-caption p{
     margin: 0;
@@ -206,12 +208,10 @@ table{
 }
 h4{
     padding-left: 30px;
-
 }
 
 .sobre-nosotros h2{
     margin-top: 20px;
-
 }
 
 .sobre-nosotros ul{
